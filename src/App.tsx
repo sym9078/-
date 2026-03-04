@@ -5,7 +5,10 @@ import Home from './pages/Home';
 import ProfilePage from './pages/ProfilePage';
 import SkillsPage from './pages/SkillsPage';
 import ProjectsPage from './pages/ProjectsPage';
+import WorkPage from './pages/WorkPage';
 import PhilosophyPage from './pages/PhilosophyPage';
+import AdminPage from './pages/AdminPage';
+import ImageGenerator from './pages/ImageGenerator';
 
 export default function App() {
   return (
@@ -18,7 +21,10 @@ export default function App() {
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/skills" element={<SkillsPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/work" element={<WorkPage />} />
             <Route path="/philosophy" element={<PhilosophyPage />} />
+            <Route path="/admin" element={<AdminPage />} />
+            <Route path="/gen-image" element={<ImageGenerator />} />
           </Routes>
         </div>
         <Footer />
