@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { ArrowDown, Sparkles } from 'lucide-react';
-import profileImg from './profile.png';
 
 export default function Hero() {
   return (
@@ -62,7 +61,7 @@ export default function Hero() {
             - Removed scale to ensure the head is not cut off.
           */}
           <img 
-            src={profileImg} 
+            src="/profile.png" 
             alt="Shin Yongmin"
             className="w-full h-full object-contain object-bottom brightness-110 contrast-110 mix-blend-lighten"
             referrerPolicy="no-referrer"
