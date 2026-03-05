@@ -49,7 +49,7 @@ export default function Hero() {
       </div>
 
       {/* Right Content - Image Container */}
-      <div className="relative flex-1 md:h-screen bg-zinc-950 overflow-hidden flex items-end justify-center md:justify-end">
+      <div className="relative flex-1 md:h-screen bg-zinc-950 flex items-end justify-center md:justify-end">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
