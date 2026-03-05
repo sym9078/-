@@ -63,7 +63,7 @@ export default function Hero() {
           <img 
             src="/profile.png" 
             alt="Shin Yongmin"
-            className="w-full h-full object-contain object-bottom brightness-110 contrast-110 mix-blend-lighten"
+            className="w-full h-full max-h-[85vh] object-contain object-bottom brightness-110 contrast-110 mix-blend-lighten"
             referrerPolicy="no-referrer"
           />
           
